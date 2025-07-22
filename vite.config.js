@@ -4,7 +4,8 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/fitsupplements/',
+  base: process.env.NODE_ENV === 'production' ? '/fitsupplements/' : '/',
+
   plugins: [react()],
   resolve: {
     alias: {
