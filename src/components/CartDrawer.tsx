@@ -101,7 +101,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Total:</span>
                 <span className="text-xl font-bold text-primary">
-                  ${getTotalPrice()}
+                  ${getTotalPrice().toFixed(0)}
                 </span>
               </div>
               
