@@ -57,20 +57,7 @@ const Home = () => {
               Proteínas, creatinas y pre-entrenos de calidad premium.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="text-xl font-bold bg-black shadow-glow transform transition-transform duration-200 hover:scale-105"
-              >
-                Explorar Productos
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-xl font-bold border-white text-black transform transition-transform duration-200 hover:scale-105"
-              >
-                Ver Ofertas Especiales
-              </Button>
+              
             </div>
           </div>
         </div>
@@ -124,9 +111,7 @@ const Home = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <Badge className="mb-4 bg-primary/10 text-primary">
-              ⭐ Productos Destacados
-            </Badge>
+
             <h2 className="text-4xl font-bold mb-4">Los Más Vendidos</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Estos son los productos favoritos de nuestros clientes

@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
-import NotFound from "./pages/NotFound"; // Si prefieres mostrar página 404
+
 
 const queryClient = new QueryClient();
 
